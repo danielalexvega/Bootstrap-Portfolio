@@ -1,0 +1,113 @@
+/* font-family: 'Overpass', sans-serif; */
+
+.headerImage{
+    background: url("images/jumbotron3.png") no-repeat center center; 
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+}
+
+.navbar-custom {
+    background-color: #1a1a1a;
+}
+
+.custom-text{
+    color:#fefefe;
+}
+
+.navbar-custom .navbar-brand, 
+.nabbar-custom .navbar-text,
+.navbar-items, .nav-link-custom {
+    color:#fefefe;
+}
+.card-image-custom {
+    padding:5px;
+}
+.card{
+    margin-top: 15px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-body{
+    padding:1rem;
+}
+.custom-cantainer{
+    background-color:#fbcf44;
+    font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.custom-btn {
+    background-color:#1a1a1a;
+    color:#fefefe;
+}
+button.custom-btn:hover,
+a.nav-link-custom:hover {
+    color:#fbcf44;
+}
+
+.custom-form {
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background:#1a1a1a;
+}
+
+p::selection,
+h1::selection,
+a.nav-link-custom::selection,
+span::selection,
+a::selection,
+h2::selection,
+li::selection,
+ul::selection {
+    background: #1a1a1a;
+    color:#fbcf44;
+}
+
+#more {display:none}
+
+.btn-read-more {
+    margin-bottom:15px;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color:#fbdbdc !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .port-row {
+      margin-top:20px;
+  }
+
+@media screen and (min-width:1000px) {
+    .card{
+        max-width:16rem;
+    }
+    .contact-container {
+        float: left!important;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:990px) {
+    .card{
+        max-width:12rem;
+    }
+}
+
+@media screen and (max-width:778px) {
+    .container{
+        max-width: 80%;
+    }
+}
+

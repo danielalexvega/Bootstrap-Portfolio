@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact for Daniel Vega</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Covered+By+Your+Grace&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function checkWidth() {
+            let w = $(document).width();
+            if (w < 576) {
+                $('#custom-tog').addClass('navbar-dark');
+            } else {
+                $('#custom-tog').removeClass('navbar-dark');
+            }
+        }
+        $(document).ready(function () {
+            setInterval(checkWidth, 500);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="jumbotron headerImage" style="margin-bottom:0px">
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-custom">
+        <a href="#" class="navbar-brand">Daniel Vega</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto mx-3">
+                <li class="nav-items mx-3"><a href="index.html" class="nav-link nav-link-custom">About</a></li>
+                <li class="nav-items mx-3"><a href="portfolio.html" class="nav-link nav-link-custom">Portfolio</a></li>
+                <li class="nav-items mx-3"><a href="contact.html" class="nav-link nav-link-custom">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-md container-fluid my-4 custom-cantainer rounded">
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-8 mt-3 px-5">
+                <div>
+                    <h1>Portfolio</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row port-row ">
+            <div class="col-md-4 px-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/Word Guess.png" alt="Word Guess Game">
+                    <div class="card-body port-card">
+                        <h5 class="card-title">Word Guess</h5>
+                        <p class="card-text">Can you guess the correct word?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 px-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/RPG Game.png" alt="Role Playing Game">
+                    <div class="card-body port-card">
+                        <h5 class="card-title">RPG Game</h5>
+                        <p class="card-text">Take on a new role, follow the map and go on a journey!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="row port-row">
+            <div class="col-md-4 px-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/ROCK PAPER SCISSOR.png" alt="Rock Paper Scissors Game">
+                    <div class="card-body port-card">
+                        <h5 class="card-title">Rock Paper Scissors</h5>
+                        <p class="card-text">The classic game of game of ro-sham-bo, easily to learn yet hard to 
+                            master.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 px-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/Info Widget.png" alt="Info Widget">
+                    <div class="card-body port-card">
+                        <h5 class="card-title">Info Widget</h5>
+                        <p class="card-text">All the information at your finger tips. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row 4 -->
+        <div class="row port-row">
+            <div class="col-md-4 px-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/Pub Trivia.png" alt="Pub Trivia Game">
+                    <div class="card-body port-card">
+                        <h5 class="card-title">Pub Triva Game</h5>
+                        <p class="card-text">Show off to your friends and win some free beer!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
