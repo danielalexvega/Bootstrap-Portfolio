@@ -16,6 +16,12 @@
     color:#fefefe;
 }
 
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 10px;
+}
+
 .navbar-custom .navbar-brand, 
 .nabbar-custom .navbar-text,
 .navbar-items, .nav-link-custom {
@@ -85,11 +91,22 @@ ul::selection {
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  .port-row {
+} 
+.port-row {
       margin-top:20px;
-  }
+}
 
+.footer{
+    position:fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color:#1a1a1a;
+    color:#fbdbdc;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
 @media screen and (min-width:1000px) {
     .card{
         max-width:16rem;
