@@ -106,7 +106,17 @@ ul::selection {
     text-align: center;
     letter-spacing: 2px;
     font-size: 14px;
+    height: 36px;
 }
+
+.contact-container{
+    height: 640px;
+}
+
+.port-container{
+    height:1250px;
+}
+
 @media screen and (min-width:1000px) {
     .card{
         max-width:16rem;
